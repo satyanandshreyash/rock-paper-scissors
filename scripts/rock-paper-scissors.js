@@ -26,13 +26,13 @@ function autoPlay(){
 }
 
 document.querySelector('.js-rock-btn').addEventListener('click', () =>{
-    playGame('rock');
+    playGame('Rock');
 })
 document.querySelector('.js-paper-btn').addEventListener('click', () =>{
-    playGame('paper');
+    playGame('Paper');
 })
 document.querySelector('.js-scissors-btn').addEventListener('click', () =>{
-    playGame('scissors');
+    playGame('Scissors');
 })
 
 function playGame(playerMove){
